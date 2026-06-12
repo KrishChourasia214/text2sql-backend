@@ -103,14 +103,3 @@ Full curl Command:
 curl -X GET 'http://localhost:8080/api/query?prompt=Show%20me%20the%20names%20of%20customers%20who%20have%20placed%20orders%20for%20products%20costing%20more%20than%2050%20dollars'
 ```
 ---
-## 📜 License
-
-This project is licensed under the MIT License.
-
-
-## 👨‍💻 Author
-
-Developed by: @codeInfiltr4tor
-
-If you find this project helpful, please ⭐ star the repository to support future development.
-
