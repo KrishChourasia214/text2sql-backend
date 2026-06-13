@@ -132,7 +132,7 @@ public class LLMService {
                 String generatedText = response.choices().get(0).message().content();
 
                 // Clean up the text just in case the LLM adds markdown
-                return generatedText.trim().replaceAll("```sql|```|\\n", "").trim();
+                return generatedText.trim().replaceAll("```sql|```", "").replaceAll("\\s+", " ").trim();
             }
             return null;
 
